@@ -40,7 +40,7 @@ export const ProfileLocation = styled.p`
 `;
 
 export const ProfileTag = styled.p`
-  font-size: 2px;
+  font-size: 24px;
   color: grey;
   font-weight: 300;
 `;
