@@ -7,6 +7,8 @@ export const TransactionTable = styled.table`
     1px 1px 1px rgba(0, 0, 0, 0.12);
   margin: 30px;
   font-family: 'Roboto';
+  tr:nth-of-type(even) {
+    background-color: #f2f2f2;
 `;
 
 export const TransactionTableHead = styled.thead`
@@ -23,5 +25,5 @@ export const TransactionTableText = styled.thead`
 `;
 
 export const TransactionsHistory = styled.tr`
-  background: #d9d9d9;
+  background: #fff;
 `;
