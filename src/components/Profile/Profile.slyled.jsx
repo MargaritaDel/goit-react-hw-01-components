@@ -3,10 +3,8 @@ import styled from '@emotion/styled';
 export const ProfileCard = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 400px;
-  margin: 25px;
+  margin: 20px auto;
+  width: 500px;
   border: 2px solid black;
   box-shadow: rgb(0 0 0) 0px 9px 9px -6px, rgb(0 0 0 / 14%) 0px 9px 12px 0px,
     rgb(0 0 0) 0px 3px 24px 0px;
@@ -51,7 +49,7 @@ export const ProfileList = styled.ul`
   align-items: center;
   text-decoration: none;
   list-style: none;
-  gap: 10px;
+  gap: 5px;
   pading: 10px;
   width: 100%;
 `;

@@ -3,10 +3,10 @@ import styled from '@emotion/styled';
 export const FriendData = styled.ul`
   display: flex;
   flex-direction: column;
-  // align-items: center;
+  align-items: center;
+  margin: 20px auto;
   gap: 10px;
   width: 640px;
-  margin-bottom: 30px;
 `;
 
 export const FriendsItem = styled.li`
