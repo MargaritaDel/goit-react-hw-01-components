@@ -18,8 +18,11 @@ export const TransactionHistory = ({ items }) => {
       </TransactionTableHead>
 
       <TransactionTableBody>
-        {items.map(({ id, type, amount, currency }) => (
-          <TransactionsHistory key={id}>
+        {items.map(({ id, type, amount, currency }, index) => (
+          <TransactionsHistory
+            key={id}
+            style={{ backgroundColor: index % 2 === 0 ? '#f2f2f2' : '#ffffff' }}
+          >
             <td>{type}</td>
             <td>{amount}</td>
             <td>{currency}</td>

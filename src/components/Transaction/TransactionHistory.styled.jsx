@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const TransactionTable = styled.table`
- text-align: center;
+  text-align: center;
   align-items: center;
   margin: 20px auto;
   border: 1px solid gray;
@@ -11,8 +11,8 @@ export const TransactionTable = styled.table`
     rgb(0 0 0) 0px 3px 24px 0px;
   border-radius: 10px;
   font-family: 'Roboto';
-  tr:nth-of-type(even) {
-    background-color: #f2f2f2;
+  // tr:nth-of-type(even) {
+  //   background-color: #f2f2f2;
 `;
 
 export const TransactionTableHead = styled.thead`
